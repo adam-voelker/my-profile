@@ -1,0 +1,56 @@
+body {
+    font-family: Comic Sans MS, cursive;
+    background-color: hotpink;
+    color: lime;
+}
+
+.profile {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 5px dashed yellow;
+    border-radius: 50px;
+    background-image: url('https://source.unsplash.com/random');
+    background-size: cover;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 10px solid cyan;
+}
+
+.profile h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: rainbow-text 5s infinite alternate;
+}
+
+@keyframes rainbow-text {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+.profile p {
+    font-size: 24px;
+    letter-spacing: 2px;
+    transform: rotate(-5deg);
+}
+
+.profile ul {
+    list-style: none;
+}
+
+.profile ul li {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px dotted purple;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
